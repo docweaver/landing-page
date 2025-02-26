@@ -44,7 +44,6 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
-          target: release # Target the prod build target in the Dockerfile
 
 #      - name: Deploy Image to CapRover
 #        uses: caprover/deploy-from-github@v1.1.2
